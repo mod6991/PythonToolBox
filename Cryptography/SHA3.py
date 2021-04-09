@@ -1,4 +1,4 @@
-"""SHA3 Helper"""
+"""SHA3 helper"""
 
 from Crypto.Hash import SHA3_512
 from typing import BinaryIO

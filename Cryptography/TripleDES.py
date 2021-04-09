@@ -1,6 +1,6 @@
-"""TripleDES Helper"""
+"""TripleDES helper"""
 
-from Padding import encrypt_pad_pkcs7, decrypt_unpad_pkcs7
+from .Padding import encrypt_pad_pkcs7, decrypt_unpad_pkcs7
 from Crypto.Cipher import DES3
 from typing import BinaryIO
 

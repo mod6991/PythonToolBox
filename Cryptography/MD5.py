@@ -1,4 +1,4 @@
-"""MD5 Helper"""
+"""MD5 helper"""
 
 from Crypto.Hash import MD5
 from typing import BinaryIO

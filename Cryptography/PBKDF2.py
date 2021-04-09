@@ -1,4 +1,4 @@
-"""PBKDF2 Helper"""
+"""PBKDF2 helper"""
 
 from Crypto.Hash import SHA1
 from Crypto.Protocol.KDF import PBKDF2

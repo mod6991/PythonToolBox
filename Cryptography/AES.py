@@ -1,6 +1,6 @@
-"""AES Helper"""
+"""AES helper"""
 
-from Padding import encrypt_pad_pkcs7, decrypt_unpad_pkcs7
+from .Padding import encrypt_pad_pkcs7, decrypt_unpad_pkcs7
 from Crypto.Cipher import AES
 from typing import BinaryIO
 
