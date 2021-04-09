@@ -104,5 +104,6 @@ class BinaryTlvReader:
 
         :return: dict of tag-values
         """
+        self.input_stream.seek(0)
         data = self.input_stream.read()
         return tlv_list_from_bytes(data)
